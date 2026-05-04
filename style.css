@@ -1197,7 +1197,7 @@ width: 50%;
 .avatar-core {
   width: 260px;
   height: 260px;
-  border-radius: 50%;
+  border-radius: 100%;
   overflow: hidden;
   position: relative;
   display: flex;            /* ensures proper centering */

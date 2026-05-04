@@ -1197,19 +1197,12 @@ width: 50%;
 .avatar-core {
   width: 260px;
   height: 260px;
-  border-radius: 100%;
+  border-radius: 50%;
   overflow: hidden;
-  position: relative;
-  display: flex;            /* ensures proper centering */
-  align-items: center;
-  justify-content: center;
 }
- 
+
 .avatar-core img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
-  border-radius: 50%;       /* ensures no square edges sneak in */
-  display: block;
 }
